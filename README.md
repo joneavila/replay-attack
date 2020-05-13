@@ -48,7 +48,7 @@ Raspbian is the official operating system (OS) for all models of the Raspberry P
 
 1. Click '*Choose SD card*' and select the SD card from the list. The next step will format the SD card.
 
-   <img src="./images/raspberry_pi_imager.png" alt="materials" height="200"/>
+   <img src="./images/raspberry_pi_imager.png" alt="raspberry pi imager" height="200"/>
 
 1. Click '*Write*' and wait for the '*You may now remove the SD card from the reader*' message. This may take several minutes.
 
@@ -144,11 +144,11 @@ Now that you have remote access to Raspberry Pi's command line and have the nece
 1. Plug the RTL-SDR RTL2832U dongle into the USB hub.
 1. Plug the female end of the jumper wire onto the Raspberry Pi's GPIO Pin 4. The jumper wire will act as an antenna for transmitting (the male end of the jumper wire is not plugged into anything).
 
-   <img src="./images/raspberry_pi_pinout.png" alt="ssh" height="180"/>
+   <img src="./images/raspberry_pi_pinout.png" alt="raspberry pi pinout" height="180"/>
 
    <sup><https://pinout.xyz></sup>
 
-   <img src="./images/setup.jpg" alt="ssh" height="300"/>
+   <img src="./images/setup.jpg" alt="setup" height="300"/>
 
 1. Plug the wireless doorbell receiver into an outlet.
 
@@ -173,7 +173,7 @@ Now that all the setup is done, you can perform the attack.
 1. For the input gain, enter the default value. Press Enter.
 1. For the transmit frequency, enter the operating frequency again. Press Enter. You should see a list of tests.
 
-   <img src="./images/tests_menu.png" alt="ssh" height="300"/>
+   <img src="./images/tests_menu.PNG" alt="tests menu" height="300"/>
 
 1. With the '*Record*' option selected, press Enter. Immediately ring the doorbell using its remote. Press Enter to stop the recording.
 1. With the '*Play*' option selected, press Enter. The recording will be replayed and the doorbell should ring without having used its remote!
@@ -183,4 +183,5 @@ If the doorbell does not ring after replaying the recording, try increasing the 
 ## Video demonstration
 
 [YouTube "Doorbell Replay Attack Using an RTL-SDR and Raspbery Pi"](https://www.youtube.com/watch?v=oTkLvH5QD3M)
-[![demo](./images/video_thumbnail.png)](https://www.youtube.com/watch?v=oTkLvH5QD3M "click to watch")
+
+<img src="./images/video_thumbnail.PNG" alt="video thumbnail" height="400"/>
