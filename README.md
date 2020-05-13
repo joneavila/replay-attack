@@ -181,4 +181,4 @@ If the doorbell does not ring after replaying the recording, try adjusting the i
 
 [YouTube "Doorbell Replay Attack Using an RTL-SDR and Raspbery Pi"](https://www.youtube.com/watch?v=oTkLvH5QD3M)
 
-<img src="./images/video_thumbnail.PNG" alt="video thumbnail" height="400"/>
+[![demo](./images/video_thumbnail.PNG)](https://www.youtube.com/watch?v=oTkLvH5QD3M "click to watch")
